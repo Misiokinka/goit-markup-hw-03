@@ -71,7 +71,9 @@ button {
 
 }
 
-
+.container-header {
+    display: flex;
+}
 
 .logo {
 
@@ -313,6 +315,9 @@ section {
 
 /* Portfolio section */
 
+.section-portfolio {
+    background-color: #FFFFFF;
+}
 
 .portfolio-name {
     border: 1px solid #e7e9fc;
