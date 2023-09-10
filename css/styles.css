@@ -71,7 +71,9 @@ button {
     padding: 0 15px 0 15px
 }
 
-
+.container-column {
+    flex-direction: column;
+}
 
 .logo {
     display: inline-block;
@@ -224,7 +226,7 @@ button {
 }
 
 .project-item {
-    flex-basis: calc((100%-72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .project-list-title {
@@ -267,8 +269,12 @@ section {
     border-radius: 0px 0px 4px 4px;
 }
 
+/* .team-info-cards:first-child {
+    
+} */
+
 .team-list {
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -329,7 +335,8 @@ section {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    margin-bottom: 72px
+    margin-bottom: 72px;
+    text-align: center;
 }
 
 .portfolio-list-item {
