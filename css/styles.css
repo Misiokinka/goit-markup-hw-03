@@ -15,6 +15,10 @@ h6 {
     margin: 0;
 }
 
+img {
+    display: block;
+}
+
 a {
     text-decoration: none;
 }
@@ -26,7 +30,8 @@ ul {
 }
 
 header {
-    background-color: #E7E9FC;
+
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-nav {
@@ -76,7 +81,8 @@ button {
 .container {
     max-width: 1158px;
     margin: 0 auto;
-
+    display: flex;
+    padding: 0 15px 0 15px
 }
 
 .button-primary {
@@ -110,7 +116,7 @@ button {
     text-align: left;
     text-transform: uppercase;
     color: #4d5ae5;
-
+    margin-right: 76px
 }
 
 .logo-name {
@@ -255,9 +261,11 @@ section {
 .team-list {
     width: calc((100%-72px)/4);
 }
-.team-text{
+
+.team-text {
     margin: 32px 16px;
 }
+
 .team-title {
     font-size: 36px;
     font-weight: 700;
@@ -288,19 +296,22 @@ section {
 
 
 /* Portfolio section */
-.portfolio{
+.portfolio {
     border: 1px solid #434455;
     border-radius: 0px 0px 4px 4px;
 }
-.portfolio-name{
+
+.portfolio-name {
     margin: 32px 16px;
-    
+
 }
-.portfolio-list{
+
+.portfolio-list {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
 }
+
 .portfolio-title {
     font-size: 36px;
     font-weight: 700;
@@ -344,7 +355,4 @@ section {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-.footer-inner{
-   
 }
