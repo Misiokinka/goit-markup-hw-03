@@ -131,6 +131,8 @@ button {
 
 .address-items {
     font-style: normal;
+    display: flex;
+    align-items: center;
 }
 
 .address-list a {
@@ -178,6 +180,10 @@ button {
     background-color: #2E2F42;
 }
 
+.container-business {
+    flex-direction: column;
+    align-items: center;
+}
 
 .business-title {
     max-width: 496px;
@@ -335,7 +341,7 @@ section {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
     text-align: center;
 }
 
@@ -356,7 +362,7 @@ section {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px;
+
 
 }
 
@@ -374,7 +380,7 @@ section {
     padding: 100px 0;
 }
 
-footer a {
+.footer a {
     display: inline-block;
     margin-bottom: 16px;
 }
