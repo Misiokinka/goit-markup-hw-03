@@ -45,10 +45,7 @@ header {
 
 
 
-.header-address ul {
-    display: flex;
-    gap: 40px;
-}
+
 
 .visually-hidden {
 
@@ -166,6 +163,8 @@ button {
     text-align: left;
     color: #434455;
     text-decoration: none;
+    display: flex;
+    gap: 40px;
 
 }
 
