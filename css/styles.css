@@ -67,7 +67,6 @@ button {
 .container {
     max-width: 1158px;
     margin: 0 auto;
-    display: flex;
     padding: 0 15px 0 15px
 }
 
@@ -377,8 +376,7 @@ section {
     padding: 100px 0;
 }
 
-.logo-item {
-
+.logo {
     margin-bottom: 16px;
 }
 
