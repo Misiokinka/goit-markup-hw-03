@@ -39,16 +39,11 @@ header {
     gap: 24px;
     align-items: center;
     flex-grow: 1;
-}
-
-
-.header-inner {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-    gap: 24px;
-
 }
+
+
+
 
 .header-address ul {
     display: flex;
