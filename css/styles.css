@@ -70,9 +70,7 @@ button {
     padding: 0 15px 0 15px
 }
 
-.container-column {
-    flex-direction: column;
-}
+
 
 .logo {
 
@@ -85,7 +83,7 @@ button {
     text-align: left;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px
+    margin-right: 76px;
 }
 
 .logo-name {
@@ -378,6 +376,7 @@ section {
 
 .logo {
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 
