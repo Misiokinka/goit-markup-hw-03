@@ -68,13 +68,16 @@ button {
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
-
 }
+
 
 .container-header {
     display: flex;
     justify-content: space-between;
+    max-width: 1158px;
+    padding: 0 15px 0 15px;
 }
+
 
 .logo {
 
@@ -318,6 +321,7 @@ section {
 
 .section-portfolio {
     background-color: #FFFFFF;
+    padding: 120px 0 120px 0;
 }
 
 .portfolio-name {
