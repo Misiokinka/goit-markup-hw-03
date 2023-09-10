@@ -94,9 +94,7 @@ button {
     color: #2e2f42;
 }
 
-.logo-name-footer {
-    color: #f4f4fd;
-}
+
 
 
 
@@ -380,12 +378,14 @@ section {
 }
 
 .footer a {
-    display: inline-block;
+
     margin-bottom: 16px;
 }
 
-.logo-second-footer {
-    color: #F4F4FD;
+
+.logo-name-footer {
+    color: #f4f4fd;
+    display: inline-block;
 }
 
 .footer-text {
