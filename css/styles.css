@@ -42,11 +42,6 @@ header {
     justify-content: space-between;
 }
 
-
-
-
-
-
 .visually-hidden {
 
     border: 0;
@@ -56,11 +51,7 @@ header {
     overflow: hidden;
     text-align: center;
     text-transform: capitalize;
-
-
 }
-
-
 
 button {
     font-family: inherit;
@@ -77,31 +68,7 @@ button {
     padding: 0 15px 0 15px
 }
 
-.button-primary {
 
-    background-color: #4D5AE5;
-    color: #FFFFFF;
-    cursor: pointer;
-    border: none;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-
-}
-.business-action {
-    display: flex;
-    align-items: center;
-    margin-top: 48px;
-    min-width: 169px;
-    height: 56px;
-}
-.button-primary:hover,
-.button-primary:focus {
-    background-color: #404BBF;
-    color: #FFFFFF;
-
-}
 
 .logo {
     display: flex;
@@ -143,12 +110,11 @@ button {
     gap: 40px;
     flex-grow: 1;
     justify-content: center;
-
-
+    padding: 24px 0;
 }
 
 .nav-list a {
-    display: inline-block;
+    display: flex;
     padding: 24px 0;
     font-size: 16px;
     font-weight: 500;
@@ -170,12 +136,22 @@ button {
     color: #434455;
     text-decoration: none;
 
+}
+
+.address-list-item:nth-child(2) {
+    margin-right: 0;
 
 }
 
-.address-list li {
+.address-list-item:first-child {
+    margin-right: 40px;
+
+}
+
+.address-list {
     display: flex;
     gap: 40px;
+
 }
 
 .nav-list a:hover {
@@ -211,12 +187,41 @@ button {
     margin: 0 auto;
 }
 
+.button-primary {
 
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    display: block;
+    align-items: center;
+    margin-top: 48px;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+}
+
+
+
+.button-primary:hover,
+.button-primary:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+
+}
 
 /* About project list */
 .project-list {
     display: flex;
     gap: 24px;
+}
+
+.project-item {
+    flex-basis: calc((100%-72px)/4);
 }
 
 .project-list-title {
@@ -225,7 +230,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
+    margin-bottom: 8px
 }
 
 .project-list-text {
@@ -236,10 +241,10 @@ button {
 }
 
 /* Team section  */
-.team {
-    border: 1px solid #434455;
-    border-radius: 0px 0px 4px 4px;
+.team-text {
 
+
+    padding: 32px 0
 }
 
 section {
@@ -256,6 +261,7 @@ section {
     flex-wrap: wrap;
     text-align: center;
     padding-top: 32px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-list {
@@ -296,20 +302,24 @@ section {
 
 
 /* Portfolio section */
-.portfolio {
-    border: 1px solid #434455;
-    border-radius: 0px 0px 4px 4px;
-}
+
 
 .portfolio-name {
-    margin: 32px 16px;
-
+    border: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    border-top: none;
 }
 
 .portfolio-list {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    row-gap: 48px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.portfolio-list :first-child {
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-title {
@@ -317,11 +327,13 @@ section {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    margin-bottom: 72px
 }
 
 .portfolio-list li {
     border: 1px solid #E7E9FC;
     background-color: #FFF;
+
 }
 
 .portfolio-project-title {
@@ -330,6 +342,7 @@ section {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 
 }
 
@@ -344,6 +357,12 @@ section {
 
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
+}
+
+footer a {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-second-footer {
@@ -355,4 +374,5 @@ section {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px
 }
