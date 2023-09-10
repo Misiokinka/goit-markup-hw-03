@@ -1,0 +1,350 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFF;
+
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #E7E9FC;
+}
+
+.header-nav {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+.header-address ul {
+    display: flex;
+    gap: 40px;
+}
+
+.visually-hidden {
+
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    text-align: center;
+    text-transform: capitalize;
+
+
+}
+
+
+
+button {
+    font-family: inherit;
+}
+
+.section {
+    padding: 120px 0 120px;
+}
+
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+
+}
+
+.button-primary {
+
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+}
+
+.button-primary:hover,
+.button-primary:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #4d5ae5;
+
+}
+
+.logo-name {
+
+    color: #2e2f42;
+}
+
+.logo-name-footer {
+    color: #f4f4fd;
+}
+
+
+
+.nav-link-list {
+
+    color: #2e2f42;
+
+}
+
+.nav-link-studio:hover {
+    color: #404bbf
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+    flex-grow: 1;
+    justify-content: center;
+
+
+}
+
+.nav-list a {
+    display: inline-block;
+    padding: 24px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.address-items {
+    font-style: normal;
+}
+
+.address-list a {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+    text-decoration: none;
+
+}
+
+.nav-list a:hover {
+    color: #404BBF;
+}
+
+.nav-list a:focus {
+    color: #404BBF;
+}
+
+.address-list-item:hover,
+.address-list-item:focus {
+    color: #404bbf;
+}
+
+/* Solutions for Your Business */
+.business-inner {
+    padding: 188px 472px 292px;
+    background-color: #2E2F42;
+}
+
+
+.business-title {
+    max-width: 496px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: capitalize;
+
+    margin: 0 auto;
+}
+
+.business-action {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+}
+
+/* About project list */
+.project-list {
+    display: flex;
+    gap: 24px;
+}
+
+.project-list-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.project-list-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Team section  */
+.team {
+    border: 1px solid #434455;
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+section {
+    background-color: #F4F4FD;
+}
+
+.team-info-cards li {
+    background-color: #FFF;
+}
+
+.team-info-cards {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.team-list {
+    width: calc((100%-72px)/4);
+}
+.team-text{
+    margin: 32px 16px;
+}
+.team-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.team-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.team-specialization {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
+
+/* Portfolio section */
+.portfolio{
+    border: 1px solid #434455;
+    border-radius: 0px 0px 4px 4px;
+}
+.portfolio-name{
+    margin: 32px 16px;
+    
+}
+.portfolio-list{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.portfolio-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-list li {
+    border: 1px solid #E7E9FC;
+    background-color: #FFF;
+}
+
+.portfolio-project-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.portfolio-project-item {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.logo-second-footer {
+    color: #F4F4FD;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.footer-inner{
+   
+}
