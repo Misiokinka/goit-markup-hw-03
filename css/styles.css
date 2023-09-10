@@ -89,7 +89,13 @@ button {
     letter-spacing: 0.04em;
 
 }
-
+.business-action {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+    min-width: 169px;
+    height: 56px;
+}
 .button-primary:hover,
 .button-primary:focus {
     background-color: #404BBF;
@@ -205,11 +211,7 @@ button {
     margin: 0 auto;
 }
 
-.business-action {
-    display: flex;
-    align-items: center;
-    margin-top: 48px;
-}
+
 
 /* About project list */
 .project-list {
