@@ -76,7 +76,7 @@ button {
 }
 
 .logo {
-    display: inline-block;
+
     align-items: center;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -305,7 +305,7 @@ section {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
+    margin-bottom: 8px;
 }
 
 .team-specialization {
@@ -341,7 +341,7 @@ section {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
+    margin-bottom: 72px;
     text-align: center;
 }
 
@@ -362,8 +362,7 @@ section {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
-
+    margin-bottom: 8px
 }
 
 .portfolio-project-item {
@@ -394,5 +393,5 @@ section {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    max-width: 264px
+    max-width: 264px;
 }
