@@ -68,7 +68,7 @@ button {
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
-    display: flex;
+
 }
 
 
@@ -271,9 +271,7 @@ section {
     border-radius: 0px 0px 4px 4px;
 }
 
-/* .team-info-cards:first-child {
-    
-} */
+
 
 .team-list {
     width: calc((100% - 72px) / 4);
