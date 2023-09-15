@@ -38,8 +38,7 @@ header {
     display: flex;
     gap: 24px;
     align-items: center;
-    flex-grow: 1;
-    justify-content: space-between;
+
 }
 
 .visually-hidden {
@@ -100,7 +99,13 @@ button {
 
 
 
+.nav-list a:hover {
+    color: #404BBF;
+}
 
+.nav-list a:focus {
+    color: #404BBF;
+}
 
 .nav-link-list {
 
@@ -115,9 +120,8 @@ button {
 .nav-list {
     display: flex;
     gap: 40px;
-    flex-grow: 1;
     justify-content: center;
-    padding: 24px 0;
+
 }
 
 .nav-list a {
@@ -152,10 +156,6 @@ button {
 
 }
 
-.address-list-item:first-child {
-    margin-right: 40px;
-
-}
 
 .address-list {
     display: flex;
@@ -163,13 +163,7 @@ button {
 
 }
 
-.nav-list a:hover {
-    color: #404BBF;
-}
 
-.nav-list a:focus {
-    color: #404BBF;
-}
 
 .address-list-item:hover,
 .address-list-item:focus {
@@ -183,6 +177,7 @@ button {
 }
 
 .container-business {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -196,8 +191,9 @@ button {
     color: #FFFFFF;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 48px;
 
-    margin: 0 auto;
+
 }
 
 .button-primary {
@@ -212,10 +208,10 @@ button {
     letter-spacing: 0.04em;
     display: block;
     align-items: center;
-    margin-top: 48px;
     min-width: 169px;
     height: 56px;
     border-radius: 4px;
+    margin: 0 auto;
 }
 
 
@@ -284,9 +280,7 @@ section {
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-text {
-    margin: 32px 16px;
-}
+
 
 .team-title {
     font-size: 36px;
@@ -350,7 +344,7 @@ section {
 }
 
 .portfolio-list-item {
-    border: 1px solid #E7E9FC;
+
     width: calc((100% - 48px) / 3);
 }
 
@@ -383,7 +377,7 @@ section {
     padding: 100px 0;
 }
 
-.logo {
+.logo-footer {
     margin-bottom: 16px;
     display: inline-block;
 }
